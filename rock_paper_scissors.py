@@ -60,17 +60,17 @@ while (count < 3):
         
     
 if player_score > computer_score:
-    print(f'{name} wins the game! \n')
-    print(f'Computer score : {computer_score} \n')
-    print(f'{name} score : {player_score} \n')
+    print(f'{name} wins the game!')
+    print(f'Computer score : {computer_score}')
+    print(f'{name} score : {player_score}')
 
 
 if computer_score > player_score:
-    print(f'Computer wins the game! \n')
-    print(f'Computer score : {computer_score} \n')
-    print(f'{name} score : {player_score} \n')
+    print(f'Computer wins the game!')
+    print(f'Computer score : {computer_score}')
+    print(f'{name} score : {player_score}')
 
 if computer_score == player_score:
-    print(f'It is a draw! \n')
-    print(f'Computer score : {computer_score} \n')
-    print(f'{name} score : {player_score} \n')
+    print(f'It is a draw!')
+    print(f'Computer score : {computer_score}')
+    print(f'{name} score : {player_score}')

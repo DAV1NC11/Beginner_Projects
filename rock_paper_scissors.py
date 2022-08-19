@@ -71,6 +71,6 @@ if computer_score > player_score:
     print(f'{name} score : {player_score}')
 
 if computer_score == player_score:
-    print(f'It is a draw!')
+    print(f'It is a draw! \n')
     print(f'Computer score : {computer_score}')
     print(f'{name} score : {player_score}')

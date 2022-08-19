@@ -1,9 +1,11 @@
 import random
 actual_value = random.randrange(1, 20)
 actual_value = int(actual_value)
-guess = int(input('Guess a number between 1 and 20: '))
-game = False
-while True:
+name = input('What is your name?')
+print(f'Well {name},I am thinking of a number between 1 and 20, what is the number?')
+guess = int(input('>'))
+game = True
+while game:
     if (float(guess)>int(actual_value)):
         print('The value you are looking for is lower than this!')
         guess = int(input('> '))
@@ -15,7 +17,7 @@ while True:
         game = True
 
     elif (float(guess)<float(actual_value)):
-        print('THe value you are looking for is higher than this!')
+        print('The value you are looking for is higher than this!')
         guess = int(input('> '))
         game = True
         
